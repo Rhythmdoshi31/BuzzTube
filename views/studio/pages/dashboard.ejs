@@ -1,0 +1,110 @@
+<style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #2B2B2B;
+      color: white;
+    }
+  
+    .main {
+      padding: 30px;
+    }
+  
+    .main h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+  
+    .grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 20px;
+    }
+  
+    .upload-box,
+    .analytics-box {
+      background-color: #272727;
+      border-radius: 12px;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: center;
+    }
+  
+    .upload-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 300px;
+      text-align: center;
+    }
+  
+    #pngpng {
+      height: 300px;
+      width: 200px;
+      object-fit: cover;
+    }
+    .upload-box img {
+      width: 80px;
+      margin-bottom: 20px;
+    }
+  
+    .upload-box button {
+      background-color: white;
+      color: black;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 9999px;
+      margin-top: 20px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  
+    .analytics-box h2 {
+      font-size: 26px;
+      margin-bottom: 20px;
+    }
+  
+    .analytics-box p {
+      margin: 20px 0;
+    }
+  
+    .analytics-box button {
+      margin-top: 20px;
+      background-color: #3EA6FF;
+      border: none;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+  </style>
+  
+  <body>
+    <main class="main">
+      <h1>Channel dashboard</h1>
+      <div class="grid">
+        <div class="upload-box">
+          <div>
+            <img id="pngpng" src="/microscope.png" alt="Microscope Icon" />
+            <p>Want to see metrics on your recent video? Upload and publish a video to get started.</p>
+            <button>Upload videos</button>
+          </div>
+        </div>
+  
+        <div class="analytics-box">
+          <h2>Channel analytics</h2>
+          <p style="color: gray;">Current subscribers</p>
+          <p style="font-size: 22px; font-weight: bold; color: #bbbbbb;">Subscribers come here</p>
+          <div style="margin-top: 24px;">
+            <p style="color: gray;">Last 28 days</p>
+            <p>Views: Views come here</p>
+            <p>Watch time (hours): 0.0</p>
+          </div>
+          <button>Go to channel analytics</button>
+        </div>
+      </div>
+    </main>
+  </body>
+  
