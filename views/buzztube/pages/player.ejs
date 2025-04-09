@@ -280,7 +280,12 @@
 
       clone.querySelector('.comment').id = 'id' + comment._id;
       clone.querySelector('.channel-avatar').src = isNew ? '<%=channel?.logoURL %>' : comment.channel.logoURL;
-      clone.querySelector('.handel').textContent = '@' + isNew ? '<%=channel?.handle %>' : comment.channel.handle;
+const handle = isNew 
+  ? '<%= channel?.handel %>' 
+  : comment.channel.handle;
+
+clone.querySelector('.handel').textContent = '@' + handle;
+
       clone.querySelector('.timestamp').textContent = getTimestamp(comment.postedDate);
       clone.querySelector('.comment-text').textContent = comment.text
       clone.querySelector('.like .likes').textContent = formatNumber(comment.likes.length)
