@@ -1,8 +1,9 @@
 .main-body {
     overflow-y: scroll;
     height: calc(100% - 56px);
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
-
 
 .player-main {
     display: flex;
@@ -21,14 +22,14 @@
 }
 
 .player-main .player-container {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    background-color: #000;
     border-radius: 12px;
     overflow: hidden;
     position: relative;
-    padding-top: 50%;
-    padding-top: 56.25%;
-    /* 16:9 aspect ratio (9 / 16 * 100) */
-    background-color: #000;
-}
+  }
+  
 
 
 .player-main .player-container iframe {
@@ -585,6 +586,14 @@
     .player-main .left {
         flex: 1;
         margin-right: 0
+    }
+}
+@media (max-width: 750px) {
+    .main-body {
+        overflow-x: hidden;
+    }
+    .player-main {
+    
     }
 }
 

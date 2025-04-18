@@ -5,6 +5,9 @@
 
 main .main-body {
     height: calc(100% - 56px);
+    margin-left: 50px;
+    margin-top: 60px;
+    margin-bottom: 50px;
 }
 
 .main-body .main section {
@@ -13,12 +16,12 @@ main .main-body {
 
 .banner-container {
     border-radius: 14px;
-
     position: relative;
     width: 100%;
     padding-top: calc(69 / 428 * 100%);
     /* Aspect ratio 428:69 */
     overflow: hidden;
+    background-color: red;
 }
 
 .banner-container img {
@@ -191,7 +194,7 @@ main .main-body {
     background-color: var(--transparent-light-15);
 }
 
-.main-body .info .subscribed . .options span {
+.main-body .info .subscribed .options span {
     margin-left: 5px;
 }
 
@@ -205,4 +208,23 @@ main .main-body {
 
 .main-body .info .subscription.is-subscribed .subscribe {
     display: none;
+}
+
+@media (max-width: 750px) {
+    main .main-body {
+        margin-left: 0;
+    }
+    .banner-container {
+        padding-top: calc(250 / 428 * 100%);
+    }
+    .main-body .main section.info .row img {
+        height: 120px;
+        width: 120px;
+    }
+}
+@media (max-width: 480px) {
+    .main-body .main section.info .row img {
+        height: 110px;
+        width: 130px;
+    }
 }

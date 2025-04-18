@@ -3,6 +3,9 @@
     --columns: 4;
     width: 100%;
     position: relative;
+    margin-left: 69px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .hashtag-main header {
@@ -26,4 +29,10 @@
     color: var(--transparent-light-60);
     white-space: nowrap;
     text-overflow: ellipsis;
+}
+
+@media (max-width: 750px) {
+    .hashtag-main {
+        margin-left: 0;
+    }
 }

@@ -294,7 +294,7 @@
     align-items: flex-end;
 }
 
-.main.content .body .videos .btns svg {
+.main.content .body  .btns svg {
     fill: var(--secondary-light);
     margin-bottom: 15px;
 }
