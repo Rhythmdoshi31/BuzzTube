@@ -39,7 +39,6 @@ passport.use(
         }
     )
 )
-
 // Serialize the user to decide which data of the user object should be stored in the session
 passport.serializeUser((channel, done) => {
     done(null, channel.id) // Store the channel id in the session
