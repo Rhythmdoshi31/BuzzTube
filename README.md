@@ -29,6 +29,41 @@ BuzzTube is a full-featured video-sharing platform that allows users to **upload
 
 ---
 
+## 🛠️ **Installation Guide**
+
+Follow the steps below to set up and run **BuzzTube** locally.
+
+### 1. **Clone the Repository**
+
+First, clone the repository to your local machine:
+
+```bash
+git clone https://github.com/your-username/buzztube.git
+cd buzztube
+```
+
+Second, Install Dependencies:
+
+```bash
+npm i
+```
+Third, Create a **.env** file:
+
+```bash
+touch .env
+```
+Now, use the format in **example.env** file, and put your credentials in the **.env** file.
+
+Four, start the server:
+
+```bash
+npm start
+```
+
+Five, Visit **http://localhost:3000** in your browser to access the app.
+
+---
+
 ## 📸 Screenshots
 
 ![Uploading Screenshot 2025-04-13 at 9.14.48 AM.png…](<img width="1440" alt="Screenshot 2025-04-13 at 9 19 16 AM" src="https://github.com/user-attachments/assets/905d4a3f-adaa-437b-ae4c-b7d7bc2c27d1" />
@@ -42,11 +77,3 @@ BuzzTube is a full-featured video-sharing platform that allows users to **upload
 )
 
 
----
-
-## 🛠️ Installation
-
-```bash
-git clone https://github.com/your-username/buzztube.git
-cd buzztube
-npm install
