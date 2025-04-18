@@ -1,4 +1,4 @@
-<img width="1440" alt="Screenshot 2025-04-13 at 9 14 48 AM" src="https://github.com/user-attachments/assets/817ed5f4-ac2f-4558-a909-b762b9121ab0" /># 🎥 BuzzTube
+<img width="1440" alt="Screenshot 2025-04-13 at 9 14 48 AM" src="https://github.com/user-attachments/assets/817ed5f4-ac2f-4558-a909-b762b9121ab0" />## 🎥 BuzzTube
 
 BuzzTube is a full-featured video-sharing platform that allows users to **upload, watch, and interact with videos & shorts**, create their **own channels**, and manage content through a powerful **BuzzTube Studio** interface enabling them to view video's analytics as well.
 
